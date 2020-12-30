@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App_ric{
+  min-height: 100vh;
+  background-image: linear-gradient( #FBCEB5 , #FE9E76 );
+  color: #000;
+}
+
+.search_form{
+  padding: 10px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.search_bar{
+  border: 0;
+  width: 50%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.search_button{
+  background: #F85C50;
+  font-size: 17px;
+  border: 0;
+  padding: 10px;
+  color: #fff;
+}
+
+.pairant_items{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+.recipe{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px #222;
+  background: #fff;
+  min-width: 20%;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.recipe ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe h1{
+  color: rgb(243, 55, 42);
+  text-align: center;
+}
+.recipe p{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.recipe img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  background: #aaa;
+  padding: 5px;
+}
